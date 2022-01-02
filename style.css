@@ -1,0 +1,1399 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Patrick+Hand&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+
+body
+{
+   background: white;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* the header section beginning */
+
+
+header
+{
+    width: 100%;
+    height: 6rem;
+   background: #fff;
+   position: sticky;
+   top: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   z-index: 1000;
+   box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo{
+    width: 8rem;
+    height: 6rem;
+    margin: 1.5rem 2rem;
+}
+
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+ul li{
+    display: inline-block;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    padding: 0.2rem ;
+    transition: 0.2s;
+}
+
+
+ul  li:hover{
+    background: #8B008B;
+}
+
+
+ul li a:hover{
+    color: #fff;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: 0.2s;
+    font-family: 'Secular One', sans-serif;
+   
+}
+
+
+
+.button1{
+    display: flex;
+    margin: 1.5rem 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 2rem;
+    background:#8B008B;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.button1:hover{
+    background: red;
+    box-shadow: 5px  5px 6px rgba(218, 16, 16, 0.808);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the description page */
+
+
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(soffa-1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+.inner-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(2rem);
+    font-size: 70%;
+    flex-direction: column;
+    color: #8B008B;
+    cursor: pointer;
+}
+
+
+.inner-logo img{
+    width: 55%;
+    height: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+.contents
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.contents h1{
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+.contents h2{
+    font-size: 1.5rem;
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+.contents p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
+
+
+.description1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.number1{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.number1 img{
+    width: 100%;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
+
+
+.description2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.number2{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.number2 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
+
+
+
+.description3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.number3{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
+.number3 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* the description page ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the about page begins */
+
+
+.about-container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+
+
+.the-design-box
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 18rem;
+    width: 25rem;
+}
+
+
+        
+        
+.second-design-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem;
+}
+
+
+.the-description h1{
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+.the-description p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+
+
+.outdoor{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    opacity: 0;
+}
+
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay .titles{
+    transform: translateY(20px);
+    transition: 0.25s;
+}
+
+
+
+
+.overlay:hover .titles{
+    transform: translateY(0);
+}
+
+
+.overlay .infos{
+    transform: translateY(20px);
+    transition: 0.4s;
+}
+
+
+
+
+.overlay:hover .infos{
+    transform: translateY(0);
+}
+
+
+
+
+
+
+.kitchen{
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.overlay2:hover{
+    opacity: 1;
+}
+
+
+
+.overlay2 .titles{
+    transform: translateY(20px);
+    transition: 0.25s;
+}
+
+
+
+
+.overlay2:hover .titles{
+    transform: translateY(0);
+}
+
+
+.overlay2 .infos{
+    transform: translateY(20px);
+    transition: 0.4s;
+}
+
+
+
+
+.overlay2:hover .infos{
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+.the-description{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 4rem;
+}
+
+
+.the-description h1{
+    margin-bottom: 0.5rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+.design-ideas{
+    background: red;
+    border: rgba(161, 36, 36, 0.966);
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgba(253, 6, 6, 0.966);
+}
+
+
+.design-ideas:hover{
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the marketing and branding section begins */
+
+
+.flex-container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.heading{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 38rem;
+    margin-left: 1.5rem;
+}
+
+
+.heading h1{
+    margin-bottom: 2rem;
+    color: #000;
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.heading p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+.branding{
+    width: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+
+.chair-image{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+
+.chair-image img{
+    width: 80%;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the design section begins */
+
+
+.design-container{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+    flex-wrap: wrap;
+}
+
+
+.left-column
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+}
+
+
+
+.heading2 h1{
+    font-size: 1.5rem;
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+/* this container types affects all */
+.types{
+    display: flex;
+    width:90%;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.levels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background:#8B008B;
+    border-radius: 50%;
+    margin: 1rem;
+    color: #fff;
+}
+
+.types p{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.right-column{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+}
+
+
+
+
+.parties-image{
+    position: relative;
+    border-radius: 0.5rem;
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    background-image: url('brand1.jpg');
+    background-size: cover;
+    background-position:center ;
+    align-items: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+    cursor: pointer;
+}
+
+
+@keyframes change{
+    0%{
+        background-image: url('pexels-sora-shimazaki-5926291.jpg');
+    }
+
+    20%{
+        background-image: url('pexels-michael-steinberg-342943.jpg');
+    }
+
+    40%{
+        background-image: url('pexels-alesia-kozik-7069272.jpg');
+    }
+
+
+    }
+
+
+
+.half-section
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+    width: 100%;
+    height: 20%;
+    background:rgba(255,255,255,0.2);
+    backdrop-filter: blur(2rem);
+
+}
+
+
+.button2{
+    padding: 1rem 2rem;
+    background:#8B008B;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 15px rgba(82, 79, 79, 0.89);
+}
+.button2:hover{
+    background: red;
+    padding: 1rem  3rem;
+    box-shadow: 2px 3px 20px rgba(253, 6, 6, 0.966);
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the location section */
+
+
+
+
+.graphics-section
+{
+    width: 100%;
+    height: 100vh;
+    background:url('krisztian-tabori-IyaNci0CyRk-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.inner-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 21rem;
+    background: rgba(255,255,255,0.8);
+    border-radius: 0.5rem;
+}
+
+.border-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 17rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+
+}
+
+
+
+.border-box h1{
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.container2{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+b{
+    color:#8B008B;
+}
+
+
+.content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    flex-direction: column;
+    width: 30rem;
+    
+}
+
+.content3 h1{
+    color: #000;
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.content3 p{
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.livingroom-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.inner2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url('pexels-ovan-57690.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.4rem;
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem;
+    border: 2px solid #fff;
+
+}
+
+
+.inner2 img{
+    width: 20rem;
+    height: 15rem;
+    position: relative;
+    right: 10rem;
+    border-radius: 0.4rem;
+    margin: 2rem;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+.white-board
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 10rem;
+    background: #fff;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+.white-board:active{
+    background: #fff;
+}
+
+/* the location section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the footer section */
+
+.footer-section{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.s-1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: 1px solid gold;
+}
+
+
+
+.s-1 h1{
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+.s-1 p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+
+.s-1 img{
+    width: 20%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: rgb(41, 41, 41);
+    color: #fff;
+
+}
+
+
+.s-2{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+.s-2 p{
+    font-size: 1.2rem;
+    transition: 0.2s;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.s-2 p:hover{
+    border-bottom: 0.9px solid #fff;
+}
+
+
+.s-2 i{
+    font-size: 1rem;
+    transition: 0.2s;
+    color: #fff;
+    margin:2px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    margin: 1rem;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+.information h1{
+    font-size: 90%;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+.b-6{
+    color: #fff;
+    margin-top: 5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.b-6 h3{
+    margin: 1rem;
+}
+
+
+.f-2{
+    width: 100%;
+    height: 4rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-2 h1{
+    font-size: 1rem;
+    color:#fff;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the media quaries */
+
+#toggler{
+    display: none;
+}
+
+
+.bars{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:998px)
+{
+
+    html{
+        overflow-x: hidden;
+    }
+
+
+
+    header{
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+
+    .bars{
+        display: block;
+
+    }
+
+
+    ul{
+        position: fixed;
+        top: 5.1rem;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: rgba(255,255,255,0.5);
+        backdrop-filter: blur(1rem);
+        transition: 0.5s;
+        z-index: 2000;
+        border: 1px solid black;
+
+    }
+
+
+    ul li{
+        margin: 1rem 2rem;
+        display: block;
+    
+    }
+
+
+
+    #toggler:checked ~ ul
+    {
+        left: 0;
+    }
+
+
+    .first-container{
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    .contents{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+    .grid-container{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .about-container{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+    .flex-container{
+        height: 100%;
+        margin-bottom: 2rem;
+
+    }
+
+
+    .location-container{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .background-image{
+        width: 70%;
+    }
+
+
+    .inner-box{
+        width: 90%;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .content h1{
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+
+    .design-container{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+
+    .half-section{
+        margin-top: 20rem;
+    }
+
+
+
+    .right-column
+    {
+        width: 50rem;
+    }
+
+
+
+    .container2{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .livingroom-photo{
+        margin-bottom: 10rem;
+    }
+
+
+
+
+
+
+       .inner2 img{
+        width: 20rem;
+        height: 15rem;
+        position: relative;
+        right: 1rem;
+        top: 12rem;
+       
+    }
+
+
+    
+    .inner-logo{
+        width: 10rem;
+        height: 10rem;
+        margin: 5rem;
+    }
+
+
+
+    .the-description h1{
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+
+
+}
+
+
