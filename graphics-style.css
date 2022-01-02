@@ -1,0 +1,1399 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+
+body
+{
+   background: white;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* the header section beginning */
+
+
+header
+{
+    width: 100%;
+    height: 6rem;
+   background: #fff;
+   position: sticky;
+   top: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   z-index: 1000;
+   box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo{
+    width: 8rem;
+    height: 6rem;
+    margin: 1.5rem 2rem;
+}
+
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+ul li{
+    display: inline-block;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    padding: 0.2rem ;
+    transition: 0.2s;
+}
+
+
+ul  li:hover{
+    background: #8B008B;
+}
+
+
+ul li a:hover{
+    color: #fff;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: 0.2s;
+    font-family: 'Secular One', sans-serif;
+   
+}
+
+
+
+.button1{
+    display: flex;
+    margin: 1.5rem 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 2rem;
+    background: #8B008B;
+    border-radius: 0.2rem;
+    color: #fff;
+    
+}
+
+.button1:hover{
+    background: red;
+    box-shadow: 5px  5px 6px rgba(218, 16, 16, 0.808);
+    color: white;
+}
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the main-container */
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(manja-vitolic-7tOV35hnkao-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(2rem);
+    font-size: 70%;
+    flex-direction: column;
+    color: #8B008B;
+    cursor: pointer;
+}
+
+
+.inner-logo img{
+    width: 55%;
+    height: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+.contents
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.contents h1{
+    font-size: 2rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the second-container */
+
+
+.second-container{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.heading1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+
+.heading1 h1{
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+.left-column{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .left-column img{
+    width: 90%;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.left-column img:hover{
+    width: 100%;
+    transform: translateY(-10px);
+}
+
+.water-drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 1rem;
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.05),
+                  10px 10px 13px rgba(0,0,0,0.05),
+                  10px 12px 12px rgba(0,0,0,0.1),
+                  inset -12px -12px 13px rgba(255,255,255,0.5);
+                  cursor: pointer;
+}
+
+
+.water-drop:hover{
+    background: #8B008B;
+    box-shadow: 5px 5px 10px #8B008B;
+    color: #fff;
+}
+
+
+
+.rignt-column{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.inner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rignt-column h1{
+    color: #8B008B;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.rignt-column p{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the third-container */
+
+
+.third-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background:whitesmoke;
+}
+
+
+.title{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title p{
+    margin: 1.5rem; 
+    font-size: 1.2rem;
+}
+
+.title h1{
+    margin: 1.5rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.white-box{
+    height: 10rem;
+    width: 20rem;
+    background: rgb(17, 223, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+.white-box p{
+    margin: 2rem;
+    font-size: 1.2rem;
+}
+
+
+.box1{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.box1 img{
+    width: 60%;
+    height: 60%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.box1 img:hover{
+    width: 70%;
+}
+
+
+.box2{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box2 img{
+    width: 60%;
+    height: 60%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.box2 img:hover{
+    width: 70%;
+}
+
+
+
+.button4{
+    width: 10rem;
+    height: 3rem;
+    background:#8B008B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px #8B008B;
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+
+
+.button4:hover{
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.05),
+                  10px 10px 13px rgba(0,0,0,0.05),
+                  10px 12px 12px rgba(0,0,0,0.1),
+                  inset -12px -12px 13px rgba(255,255,255,0.5);
+   cursor: pointer;
+   background: #fff;
+   color: #000;
+
+}
+
+
+
+
+
+.button5{
+    width: 10rem;
+    height: 3rem;
+    background:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px red;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button5:hover{
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.05),
+                  10px 10px 13px rgba(0,0,0,0.05),
+                  10px 12px 12px rgba(0,0,0,0.1),
+                  inset -12px -12px 13px rgba(255,255,255,0.5);
+   cursor: pointer;
+   background: #fff;
+   color: #000;
+
+}
+
+
+
+
+
+
+.intersection{
+    width: 100%;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.5) url(pexels-rodnae-productions-6192410.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}
+
+
+.inside-intersection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 0.9rem;
+}
+
+
+.inside-intersection h1{
+    color: #fff; 
+    font-size: 3rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the custom area */
+
+
+
+.custom-area{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+
+
+.right-side{ 
+    overflow-x: hidden;
+    position: relative;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin: 2rem;
+} 
+
+
+
+.right-side p{
+    font-size: 1.2rem;
+}
+
+
+.right-side img{
+    position: relative;
+    width: 82%;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+
+.below{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    position: relative;
+    top: -200px;
+    left: 20px;
+    right: 10px;
+    background: transparent;
+    margin: 1rem;
+}
+
+.below h1{
+    color: #fff;
+    font-size: 6.2rem;
+    text-shadow: 10px 10px 35px rgba(0, 0, 0, 0.9);
+}
+
+span{
+    color:#8B008B;
+}
+
+
+.right-side h2{
+    font-size: 2rem;
+    margin: 1.5rem;
+    color:#8B008B;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.right-side p{
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-side{
+   width: 35rem;
+   overflow-x: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 2rem;
+}
+
+
+.boxes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.boxes img{
+    width: 30%;
+    margin: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+  
+}
+
+
+
+.boxes:hover img{
+    width: 40%;
+}
+
+
+
+.boxes h3{
+    background: whitesmoke;
+    padding: 1rem;
+}
+
+
+
+
+
+
+/* more-ideas section */
+.more-ideas{
+    width: 100%;
+    height: 50vh;
+    background:rgba(0, 0, 0, 0.5) url(pexels-rodnae-productions-6192410.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+.inner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+
+.inner-text h2{
+    color: #fff; 
+    font-size: 2rem;
+}
+
+
+
+
+
+
+.brands{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+} 
+
+.brands h1{
+    font-size: 2rem;
+    margin: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.brands p{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.divisions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+
+
+.circle img{
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+.gold-border{
+    width: 10rem;
+    margin: 4rem;
+    border: 2px solid gold;
+    padding: 2rem;
+}
+
+
+
+.information p{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.final-bg{
+    width: 100%;
+    height: 50vh;
+    background:rgba(0, 0, 0, 0.5) url(pexels-rodnae-productions-6192410.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+.column{
+    height: 95%;
+    width: 25%;
+    background: #fff;
+    margin: 2rem;
+    margin-left: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.column h1{
+    font-size: 100%;
+    margin: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+.contents1{
+    margin: 1rem;
+}
+
+.contents1 h1{
+    font-size: 1.3rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.contents2{
+    margin: 1rem;
+}
+
+
+.contents2 p{
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.join-us{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.message{
+    width: 60%;
+    height: 60%;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    border-bottom: 2px solid gold ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.message h1
+{
+    font-family: 'Patrick Hand', cursive;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+}
+
+
+.trophy {
+    width: 15rem;
+}
+
+
+.trophy img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the footer section */
+
+.footer-section{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.s-1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: 1px solid gold;
+}
+
+
+
+.s-1 h1{
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+.s-1 p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+
+.s-1 img{
+    width: 20%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: rgb(41, 41, 41);
+    color: #fff;
+
+}
+
+
+.s-2{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+.s-2 p{
+    font-size: 1.2rem;
+    transition: 0.2s;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.s-2 p:hover{
+    border-bottom: 0.9px solid #fff;
+}
+
+
+.s-2 i{
+    font-size: 1rem;
+    transition: 0.2s;
+    color: #fff;
+    margin:2px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    margin: 1rem;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+.information h1{
+    font-size: 90%;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+.b-6{
+    color: #fff;
+    margin-top: 5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.b-6 h3{
+    margin: 1rem;
+}
+
+
+.f-2{
+    width: 100%;
+    height: 4rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-2 h1{
+    font-size: 1rem;
+    color:#fff;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the media quaries */
+
+#toggler{
+    display: none;
+}
+
+
+.bars{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:998px)
+{
+
+    html{
+        overflow-x: hidden;
+    }
+
+
+
+    header{
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+
+    .bars{
+        display: block;
+
+    }
+
+
+    ul{
+        position: fixed;
+        top: 5.1rem;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: rgba(255,255,255,0.5);
+        backdrop-filter: blur(1rem);
+        transition: 0.5s;
+        z-index: 2000;
+        border: 1px solid black;
+
+    }
+
+
+    ul li{
+        margin: 1rem 2rem;
+        display: block;
+    
+    }
+
+
+
+    #toggler:checked ~ ul
+    {
+        left: 0;
+    }
+
+
+    .second-container{
+        height: 100%;
+    }
+
+
+    .third-container{
+        height: 100%;
+    }
+
+
+    .column{
+        margin-left: 20rem;
+    }
+
+    .column h1{
+        font-size: 0.9rem;
+    }
+
+
+    .final-bg{
+        height: 100%;
+    }
+
+
+
+    .more-ideas{
+        height: 100%;
+    }
+
+
+    .heading1 h1{
+        font-size: 2rem;
+    }
+
+
+    .right-side{
+        background: whitesmoke;
+    }
+
+
+
+    .left-side{
+        width: 100%;
+    }
+
+
+ 
+
+
+   
+
+
+
+
+
+}
+
+
+@media (max-width:690px){ 
+
+    html{
+        overflow-x: hidden;
+    }
+
+     
+    .heading1 h1{
+        font-size: 1rem;
+    }
+
+    .rignt-column h1{
+        font-size: 1.5rem;
+    }
+
+
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+
+    .inside-intersection h1{
+        font-size: 1.4rem;
+    }
+
+    .column{
+        margin-left: 10rem;
+    }
+    .column h1{
+        font-size: 1.5rem;
+    }
+
+    .contents1 h2{
+        font-size:1.5rem ;
+    }
+
+    .final-bg{
+        height: 100%;
+    }
+
+
+
+    .more-ideas{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+    .message h1{
+        font-size: 1rem;
+    }
+
+
+
+    
+    .inner-logo{
+        width: 10rem;
+        height: 10rem;
+        margin: 5rem;
+    }
+
+
+
+
+
+    .custom-area{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .below{
+        margin: 2rem;
+    }
+
+
+    .below h1{
+        font-size: 4rem;
+        margin: 1rem;
+    }
+
+
+
+
+
+    .column h1{
+         font-size: 1rem;
+    }
+
+
+    
+
+
+    .heading1 h1{
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+}

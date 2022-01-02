@@ -1,0 +1,1673 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+
+body
+{
+   background: white;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* the header section beginning */
+
+
+header
+{
+    width: 100%;
+    height: 6rem;
+   background: #fff;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   z-index: 1000;
+   box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo{
+    width: 8rem;
+    height: 6rem;
+    margin: 1.5rem 2rem;
+}
+
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+ul li{
+    display: inline-block;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    padding: 0.2rem ;
+    transition: 0.2s;
+    
+}
+
+
+ul  li:hover{
+    background:#8B008B;
+}
+
+
+ul li a:hover{
+    color: #fff;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: 0.2s;
+    font-family: 'Secular One', sans-serif;
+   
+}
+
+
+
+.button1{
+    display: flex;
+    margin: 1.5rem 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 2rem;
+    background:#8B008B;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.button1:hover{
+    background: red;
+    box-shadow: 5px  5px 6px rgba(218, 16, 16, 0.808);
+    color: white;
+}
+
+
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(livingroom-interior.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.inner-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(2rem);
+    font-size: 70%;
+    flex-direction: column;
+    color:#8B008B;
+}
+
+
+.inner-logo img{
+    width: 55%;
+    height: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* the second-container */
+
+.second-container{
+    width: 100%;
+    height: 100vh;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.inner-content1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+
+.inner-content1 h1{
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+
+
+.green-button{
+    width: 10rem;
+    height: 3rem;
+    background:#8B008B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    color: #fff;
+}
+
+
+.green-button:hover{
+    background: red;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgba(218, 16, 16, 0.808);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the third-container */
+.third-container{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.left-column{
+    width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 0.5rem;
+    margin: 2rem;
+
+}
+
+
+.boxes img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.right-column{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.house{
+    width: 15rem;
+    height: 15rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.house img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.right-column h1{
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.right-column p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the fouth-container */
+
+.fourth-container{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.fourth-container h1{
+    font-size: 1.2rem;
+    font-family: 'Patrick Hand', cursive;
+    margin: 3rem;
+}
+
+
+.fourth-container P{
+    font-size: 1rem;
+}
+
+
+.ct-1{
+    width: 90%;
+    height: 70%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+
+.b-2{
+    width: 15rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.b-1{
+    width: 18rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.b-3{
+    width: 17rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.no{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.no img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+.bt-5{
+    width: 12rem;
+    height: 3rem;
+    background: transparent;
+    border: 1px solid #8B008B;
+    color: #8B008B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 0.3rem;
+   
+}
+
+
+
+
+.bt-5 h6{
+    font-size: 1rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* the fifth container */
+
+
+.fifth-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(233, 231, 231);
+}
+
+
+
+.left{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+
+
+
+.c-1{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.c-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+}
+
+
+.c-1 h3{
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+
+
+
+
+.right{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+} 
+
+
+
+
+.right p{
+    font-size: 1.2rem;
+    
+}
+
+
+.right h1{
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.construction{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.construction img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+.right h1{
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+
+.referals{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+
+
+.r-1{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+
+.r-1 h1{
+    margin: 1rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+    border: 1px solid gold;
+}
+
+
+.r-1 p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+}
+
+
+
+.r-b{
+    width: 10rem;
+    height: 3rem;
+    background:purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the sixth container */
+
+.sixth-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(179, 179, 179);
+
+}
+
+
+.p-ct{
+    width: 60%;
+}
+
+
+
+.p-ct p{
+    margin: 1rem;
+
+}
+
+
+
+
+.sixth-container h1{
+    margin:1rem;
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+.sixth-container p{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the seventh container */
+
+
+.seventh-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background:whitesmoke;
+}
+
+
+
+
+
+.items img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+.items{
+    width: 400px;
+    margin: 0.5rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+.items p{
+    font-size: 1rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the eigth-container */
+
+.eigth-container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #fff;
+} 
+
+
+
+
+
+
+.ct-2{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem;
+  
+}
+
+
+.ct-2 h1{
+    border-top: 2px solid gold;
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.ct-2 p{
+    font-size: 2rem;
+}
+
+
+
+
+
+.eigth-container img{
+    width: 30rem;
+}
+
+
+
+.sectional-container{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.inner-section{
+    width: 95%;
+    margin: 3rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.inner-section p{
+    width: 80%;
+    border-top: 2px solid gold;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    padding: 2rem; 
+    font-size: 1.5rem;
+    margin: 5rem;
+}
+
+
+
+
+
+/* the ninth container */
+
+.ninth-container{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ninth-container h1{
+    margin: 2.5rem; 
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+.p-ct2{
+    width: 70%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.p-ct2 p{
+    margin: 2rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* the tenth container */
+
+.tenth-contaner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #fff;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.card{
+    width: 400px;
+    margin: 0.5rem;
+    border: 1px solid black;
+}
+
+
+
+.card img{
+    width: 100%;
+    cursor: pointer;
+} 
+
+
+
+.dt p{
+    font-size: 1rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* the intersection */
+.intersection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(226, 226, 226);
+}
+
+.cts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid gold; 
+    margin: 5rem;
+} 
+
+
+.cts p{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+
+.no-1{
+    width: 3rem;
+    height: 3rem;
+    background: gold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+
+
+
+/* lowersection */
+
+
+
+
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.wt-container{
+    width: 75%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    margin: 3rem;
+}
+
+
+
+.bg h1{
+    font-size: 1.3rem;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 2rem;
+}
+
+
+.bb{
+    width: 15rem;
+    height: 15rem;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.blur{
+    width: 100%;
+    height: 100%; 
+    cursor: pointer; 
+    border-radius: 0.4rem; 
+    display: block;
+}
+
+
+.blur img{
+    width: 100%;
+    width: 100%;
+}
+
+
+.dark-mode{
+    width: 100%;
+    height: 100%; 
+    cursor: pointer;
+    border-radius: 0.4rem;
+    display: block;
+} 
+
+
+.dark-mode img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 70%;
+    transition: 0.25s;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.8);
+    color:#fff;
+    flex-direction: column;
+    opacity: 1;
+    border-radius: 0.4rem;
+}
+
+.overlay1:hover{
+    opacity: 0;
+}
+
+
+.black{
+    width: 10rem;
+    height: 3rem;
+    background:#000;
+    color: #fff;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay2{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 80%;
+    height: 70%;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+     transition: 0.25s;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background:rgb(238, 5, 238,0.8);
+     color:#fff;
+     flex-direction: column;
+     opacity: 0;
+     border-radius: 0.4rem;
+}
+
+
+.overlay2:hover{
+    opacity: 1;
+}
+
+
+
+.overlay2 .titles{
+    transform: translateY(30px);
+    transition: 0.25s;
+}
+
+
+.overlay2:hover .titles{
+    transform: translateY(0);
+}
+
+
+.overlay2 .infos{
+    transform: translateY(30px);
+    transition: 0.25s;
+}
+
+
+.overlay2:hover .infos{
+    transform: translateY(0);
+}
+
+
+
+.purple{
+    width: 10rem;
+    height: 3rem;
+    background: purple;
+    color: #fff;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 70%;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    transition: 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(0,0,0,0.8);
+    color:#fff;
+    flex-direction: column;
+    opacity: 0;
+    border-radius: 0.4rem;
+}
+
+
+.overlay3:hover{
+   opacity: 1;
+}
+
+
+
+.overlay3 .titles{
+   transform: translateY(30px);
+   transition: 0.25s;
+}
+
+
+.overlay3:hover .titles{
+   transform: translateY(0);
+}
+
+
+.overlay3 .infos{
+   transform: translateY(30px);
+   transition: 0.25s;
+}
+
+
+.overlay3:hover .infos{
+   transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+.overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 70%;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    transition: 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(238, 5, 238,0.8);
+    color:#fff;
+    flex-direction: column;
+    opacity: 0;
+    border-radius: 0.4rem;
+}
+
+
+.overlay4:hover{
+   opacity: 1;
+}
+
+
+
+.overlay4 .titles{
+   transform: translateY(30px);
+   transition: 0.25s;
+}
+
+
+.overlay4:hover .titles{
+   transform: translateY(0);
+}
+
+
+.overlay4 .infos{
+   transform: translateY(30px);
+   transition: 0.25s;
+}
+
+
+.overlay4:hover .infos{
+   transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the footer section */
+
+
+
+.footer-section{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.s-1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: 1px solid gold;
+}
+
+
+
+.s-1 h1{
+    font-family: 'Patrick Hand', cursive;
+    margin: 1rem;
+}
+
+
+.s-1 p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+
+.s-1 img{
+    width: 20%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: rgb(41, 41, 41);
+    color: #fff;
+
+}
+
+
+.s-2{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+.s-2 p{
+    font-size: 1.2rem;
+    transition: 0.2s;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.s-2 p:hover{
+    border-bottom: 0.9px solid #fff;
+}
+
+
+.s-2 i{
+    font-size: 1rem;
+    transition: 0.2s;
+    color: #fff;
+    margin:2px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    margin: 1rem;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+.information h1{
+    font-size: 90%;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+.b-6{
+    color: #fff;
+    margin-top: 5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.b-6 h3{
+    margin: 1rem;
+}
+
+
+.f-2{
+    width: 100%;
+    height: 4rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-2 h1{
+    font-size: 1rem;
+    color:#fff;
+    cursor: pointer;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the media quaries */
+
+#toggler{
+    display: none;
+}
+
+
+.bars{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:998px)
+{
+
+    html{
+        overflow-x: hidden;
+    }
+
+
+
+    header{
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+
+    .bars{
+        display: block;
+
+    }
+
+
+    ul{
+        position: fixed;
+        top: 5.1rem;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: rgba(255,255,255,0.5);
+        backdrop-filter: blur(1rem);
+        transition: 0.5s;
+        z-index: 2000;
+        border: 1px solid black;
+
+    }
+
+
+    ul li{
+        margin: 1rem 2rem;
+        display: block;
+    
+    }
+
+
+
+    #toggler:checked ~ ul
+    {
+        left: 0;
+    }
+
+
+    .main-container{
+        height: 100%;
+    }
+
+
+    .second-container{
+        height: 100%;
+    }
+
+
+
+
+    .fourth-container{
+      height: 100%;
+    }
+
+
+    .fifth-container{
+        height: 100%;
+    }
+
+    .sixth-container{
+        height: 100%;
+    }
+
+    .seventh-container{
+        height: 100%;
+    }
+
+
+    .eigth-container{
+        height: 100%;
+    }
+
+
+
+    .tenth-contaner{
+        height: 100%;
+    }
+
+
+    .bg{
+        height: 100%;
+    }
+
+
+
+    .wt-container h1{
+        font-size: 1rem;
+    }
+
+
+
+    .inner-logo{
+        width: 10rem;
+        height: 10rem;
+        margin: 5rem;
+    }
+
+
+    .p-ct{
+        width: 95%;
+    }
+
+
+
+
+
+    .p-ct2{
+        width: 95%;
+    }
+
+
+
+    .inner-content1 h1{
+        font-size: 2rem;
+    }
+
+
+    .inner-content1 h2{
+        font-size: 1.2rem;
+    }
+
+
+
+    .referals{
+        height: 100%;
+    }
+
+
+    .r-1{
+        width: 90%;
+        height: 100%;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
