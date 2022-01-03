@@ -121,19 +121,29 @@ ul li a{
 }
 
 
-
-section
-{
-    position: relative;
+.intro-page{
     width: 100%;
     height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-image: url(livingroom-interior.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.section
+{
+    position: relative;
+    width: 80%;
+    height:80%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center ;
+    background-image: url(modern-brown\ kitchen.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
 }
 
 
@@ -143,23 +153,32 @@ section
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.3);
-    backdrop-filter: blur(2rem);
-    font-size: 70%;
-    flex-direction: column;
-    color:#8B008B;
+    width: 95%;
+    height: 80%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 1rem;
+    margin: 1rem;
 }
 
 
-.inner-logo img{
-    width: 55%;
-    height: 50%;
-    border-radius: 50%;
-    cursor: pointer;
+
+.inner-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 1rem;
 }
+
+
+.inner-border h1{
+    margin: 3rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3rem;
+}
+
 
 
 
@@ -772,7 +791,7 @@ section
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 5rem;
+    margin: 4rem;
   
 }
 
@@ -793,7 +812,7 @@ section
 
 
 .eigth-container img{
-    width: 60%;
+    width: 30%;
 }
 
 
@@ -810,8 +829,8 @@ section
 
 
 .inner-section{
-    width: 95%;
-    margin: 3rem;
+    width: 70%;
+    margin: 4rem;
     background: #fff;
     display: flex;
     align-items: center;
@@ -821,13 +840,11 @@ section
 
 
 .inner-section p{
-    width: 80%;
     border-top: 2px solid gold;
     border-left: 2px solid gold;
     border-right: 2px solid gold;
     padding: 2rem; 
     font-size: 1.5rem;
-    margin: 5rem;
 }
 
 
@@ -931,7 +948,7 @@ section
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90%;
+    width: 60%;
     border: 1px solid gold; 
     margin: 5rem;
 } 
@@ -981,7 +998,7 @@ section
 
 
 .wt-container{
-    width: 75%;
+    width: 85%;
     background: #fff;
     display: flex;
     align-items: center;
@@ -1332,7 +1349,7 @@ section
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     border-bottom: 1px solid gold;
@@ -1587,6 +1604,16 @@ section
         height: 100%;
     }
 
+
+    .sixth-container h1{
+        font-size: 100%;
+    }
+
+
+    .sixth-container p{
+        font-size: 100%;
+    }
+
     .seventh-container{
         height: 100%;
     }
@@ -1605,6 +1632,12 @@ section
 
     .bg{
         height: 100%;
+    }
+
+
+    .bg h1{
+        font-size: 90%;
+        margin: 1rem;
     }
 
 
@@ -1637,12 +1670,12 @@ section
 
 
     .inner-content1 h1{
-        font-size: 2rem;
+        font-size: 100%;
     }
 
 
     .inner-content1 h2{
-        font-size: 1.2rem;
+        font-size: 88%;
     }
 
 
@@ -1658,9 +1691,155 @@ section
     }
 
 
+    .r-1 h1{
+        font-size: 100%;
+    }
+
+
+    .r-1 p{
+        font-size: 100%;
+    }
+
+
     section{
         background-position: center;
     }
+
+
+
+    .right-column h1{
+        font-size: 100%;
+    }
+
+
+    .right-column p{
+        font-size: 100%;
+    }
+
+
+
+    .fourth-container h1{
+        font-size: 100%;
+    }
+
+
+
+
+    .right h1{
+        font-size: 100%;
+    }
+
+
+    .right p{
+        font-size: 100%;
+    }
+
+
+
+    .ct-2 h1{
+        font-size: 100%;
+    }
+
+
+    .ct-2 p{
+        font-size: 100%;
+    }
+
+
+
+
+    .inner-section{
+        width: 90%;
+    }
+
+
+    .inner-section p{
+        font-size: 100%;
+    }
+
+
+    .eigth-container img{
+        width: 60%;
+    }
+
+
+
+    .ninth-container h1{
+        font-size: 100%;
+        margin: 1rem;
+    }
+
+
+    .ninth-container p{
+        font-size: 100%;
+        margin: 1rem;
+    }
+
+
+    .cts{
+        width: 90%;
+        margin: 1rem;
+    }
+
+
+
+
+
+    .cts p{
+        font-size: 100%;
+        margin: 1rem;
+    }
+
+
+
+    .s-1{
+        width: 100%;
+    }
+
+
+    .s-1 h1{
+        font-size: 100%;
+        margin-top: 4rem;
+    }
+
+
+    .s-1 p{
+        font-size: 100%;
+    }
+
+
+    .s-2 p{
+        font-size: 100%;
+    }
+
+
+    .b-6 h3{
+        font-size: 100%;
+        margin: 5px;
+    }
+
+
+    .section{
+        width: 90%;
+    }
+
+
+    .inner-logo{
+        width: 95%;
+        margin: 0;
+        height: 90%;
+    }
+
+
+    .inner-logo h1{
+        font-size: 100%;
+    }
+
+
+
+
+
+
 
 
 

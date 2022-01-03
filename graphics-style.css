@@ -141,40 +141,70 @@ ul li a{
 
 /* the main-container */
 .main-container{
-    height: 100vh;
-    width: 100%;
+    height: 85%;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(manja-vitolic-7tOV35hnkao-unsplash.jpg);
+    background: url(paint-brush.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 1rem;
 }
 
-.inner-logo{
+.inner-logos{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.3);
-    backdrop-filter: blur(2rem);
-    font-size: 70%;
-    flex-direction: column;
-    color: #8B008B;
-    cursor: pointer;
+    width: 95%;
+    height: 80%;
+    background: rgba(255,255,255,0.5);
+    border-radius: 1rem;
+    margin: 1rem;
 }
 
 
-.inner-logo img{
-    width: 55%;
-    height: 50%;
-    border-radius: 50%;
-    cursor: pointer;
+.above-the-maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
+
+
+
+.inner-borders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+
+.inner-borders h1{
+    margin: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -397,7 +427,7 @@ ul li a{
 
 
 .white-box p{
-    margin: 2rem;
+    margin: 1rem;
     font-size: 1.2rem;
 }
 
@@ -822,10 +852,9 @@ span{
 
 .column{
     height: 95%;
-    width: 25%;
+    width: 80%;
     background: #fff;
-    margin: 2rem;
-    margin-left: 50rem;
+    margin: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -858,7 +887,6 @@ span{
 
 .contents2 p{
     font-size: 1.2rem;
-    margin-left: 1.5rem;
 }
 
 
@@ -980,7 +1008,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     border-bottom: 1px solid gold;
@@ -1248,7 +1276,7 @@ span{
     }
 
     .column h1{
-        font-size: 0.9rem;
+        font-size: 100%;
     }
 
 
@@ -1264,12 +1292,13 @@ span{
 
 
     .heading1 h1{
-        font-size: 2rem;
+        font-size: 100%;
     }
 
 
     .right-side{
         background: whitesmoke;
+        box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.1);
     }
 
 
@@ -1279,16 +1308,160 @@ span{
     }
 
 
+
+    .main-container{
+        width: 95%;
+    }
+
+
+
+    .inner-logos{
+        width: 90%;
+    }
+
+
+    .inner-borders h1{
+        font-size: 100%;
+    }
+
+
+
+    .inner2 p{
+        font-size: 100%;
+        margin: 2rem;
+    }
+
+
+    .title p{
+        font-size: 100%;
+        margin: 2rem;
+    }
+
+
+    .white-box{
+        margin: 2rem;
+    }
+
+
+    .right-side h2{
+        font-size: 100%;
+    }
+
+
+    .right-side p{
+        font-size: 100%;
+    }
+
+    .inside-intersection h1{
+        font-size: 100%;
+    }
+
+    .boxes h2{
+        font-size: 100%;
+    }
+
+
+    .boxes h3{
+        font-size: 100%;
+    }
+
+
+
+
+
+ .inner-text h2{
+     font-size: 100%;
+ }
+
+
+ .brands h1{
+     font-size: 100%;
+     margin: 1rem;
+ }
+
+
+ .brands p{
+     font-size: 100%;
+     margin: 1rem;
+ }
+
+
+ .gold-border{
+     width: 95%;
+ }
+
+
+ .gold-border p{
+     font-size: 100%;
+     margin: 0;
+ }
+
+ .column{
+     width: 90%;
+     margin: 1rem;
+ }
+
+
+ .column p{
+     font-size: 100%;
+ }
+
  
+ .column h1{
+    font-size: 100%;
+}
 
 
-   
+
+ .column h2{
+     font-size: 100%;
+ }
+
+
+ .message{
+     width: 90%;
+ }
+
+ .message h1{
+    font-size: 90%;
+    margin: 0;
+}
+
+.s-1{
+    width: 100%;
+}
+
+
+
+.s-2 p{
+    font-size: 100%;
+}
+
+.b-6 h3{
+    font-size: 100%;
+    margin: 5px;
+}
+
+
+.s-1 h1{
+    margin-top: 3rem;
+}
+
 
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:690px){ 
@@ -1304,33 +1477,26 @@ span{
 
      
     .heading1 h1{
-        font-size: 1rem;
+        font-size: 100%;
     }
 
     .rignt-column h1{
-        font-size: 1.5rem;
+        font-size: 100%;
     }
 
 
     .title h1{
-        font-size: 1.5rem;
+        font-size: 100%;
+        margin: 2rem;
     }
 
 
     .inside-intersection h1{
-        font-size: 1.4rem;
+        font-size: 100%;
     }
 
-    .column{
-        margin-left: 10rem;
-    }
-    .column h1{
-        font-size: 1.5rem;
-    }
 
-    .contents1 h2{
-        font-size:1.5rem ;
-    }
+
 
     .final-bg{
         height: 100%;
@@ -1345,12 +1511,6 @@ span{
         justify-content: center;
     }
 
-
-
-
-    .message h1{
-        font-size: 1rem;
-    }
 
 
 
@@ -1378,24 +1538,15 @@ span{
 
 
     .below h1{
-        font-size: 4rem;
+        font-size: 3rem;
         margin: 1rem;
     }
 
 
 
 
-
-    .column h1{
-         font-size: 1rem;
-    }
-
-
-    
-
-
     .heading1 h1{
-        font-size: 1.2rem;
+        font-size: 100%;
     }
 
 

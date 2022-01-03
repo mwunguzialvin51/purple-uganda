@@ -143,21 +143,30 @@ ul li a{
 
 
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+
+
 
 section{
     position: relative;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
+    width: 80%;
+    height: 80%;
     background-position: center;
     background-size: cover;
     background-image: url(soffa-1.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-attachment: fixed;
-    overflow-x: hidden;
+    border-radius: 1rem;
+    margin: 1rem;
 }
 
 
@@ -168,24 +177,32 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.3);
-    backdrop-filter: blur(2rem);
-    font-size: 70%;
-    flex-direction: column;
-    color: #8B008B;
-    cursor: pointer;
+    width: 100%;
+    height: 75%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 1rem;
 }
 
 
-.inner-logo img{
-    width: 55%;
-    height: 50%;
-    border-radius: 50%;
-    cursor: pointer;
+.inner-borders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 55%;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 1rem;
 }
+
+
+.inner-borders h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
+}
+
+
 
 
 
@@ -484,13 +501,13 @@ section{
 
 
 .the-description{
-    width: 20rem;
+    width: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 4rem;
+    margin: 2rem;
 }
 
 
@@ -972,7 +989,7 @@ b{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 2rem;
     margin-right: 2rem;
     border-bottom: 1px solid gold;
@@ -1293,29 +1310,34 @@ b{
 
 
 
+    .graphics-photo{
+        margin-bottom: 3rem;
+    }
+
+
+
+
 
 
        .inner2 img{
-        width: 20rem;
-        height: 15rem;
+        width: 80%;
         position: relative;
-        right: 1rem;
-        top: 12rem;
+        top: 6rem;
+        left: 0.1rem;
        
     }
 
 
-    
-    .inner-logo{
-        width: 10rem;
-        height: 10rem;
-        margin: 5rem;
-    }
 
 
 
     .the-description h1{
-        font-size: 1.5rem;
+        font-size: 100%;
+    }
+
+
+    .the-description p{
+        font-size: 100%;
     }
 
 
@@ -1323,6 +1345,137 @@ b{
     .section{
         background-position: top;
     }
+
+
+
+
+    .description1 h2{
+        font-size: 100%;
+    }
+
+
+    .description1 p{
+        font-size: 100%;
+    }
+
+
+    .description2 h2{
+        font-size: 100%;
+    }
+
+    .description2 p{
+        font-size: 100%;
+    }
+
+    .description3 h2{
+        font-size: 100%;
+    }
+
+    .description3 p{
+        font-size: 100%;
+    }
+
+
+
+    .the-description{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .content3 h1{
+        font-size: 100%;
+    }
+
+
+    .content3 p{
+        font-size: 100%;
+    }
+
+
+
+    .heading h1{
+        font-size: 100%;
+    }
+
+
+    .heading p{
+        font-size: 100%;
+    }
+
+
+    .heading2 h1{
+        font-size: 100%;
+    }
+
+
+
+    .levels h1{
+        font-size: 100%;
+    }
+
+
+    .types p{
+        font-size: 100%;
+    }
+
+
+
+    .s-1{
+        width: 100%;
+        margin: 3px;
+    }
+
+    .s-1 p{
+        font-size: 100%;
+    }
+
+    .s-2 p{
+        font-size: 100%;
+    }
+
+
+    .s-1 h1{
+        font-size: 100%;
+        margin-top: 4rem;
+    }
+
+
+    .inner-logo{
+        width: 95%;
+        height: 95%;
+    }
+
+
+    .inner-borders{
+        margin: 0;
+    }
+
+
+    .inner-borders h1{
+        font-size: 90%;
+    }
+
+    section{
+        height: 60%;
+        width: 90%;
+        margin: 1rem;
+    }
+
+
+    .b-6 h3{
+        font-size: 100%;
+        margin: 5px;
+    }
+    
+
+
+
+
 
 
 
