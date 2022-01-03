@@ -793,7 +793,7 @@ section
 
 
 .eigth-container img{
-    width: 30rem;
+    width: 60%;
 }
 
 
@@ -1525,8 +1525,6 @@ section
 
     header{
         justify-content: space-between;
-        position: sticky;
-        top: 0;
     }
 
     .bars{
@@ -1657,6 +1655,11 @@ section
     .r-1{
         width: 90%;
         height: 100%;
+    }
+
+
+    section{
+        background-position: center;
     }
 
 

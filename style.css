@@ -39,8 +39,7 @@ header
     width: 100%;
     height: 6rem;
    background: #fff;
-   position: sticky;
-   top: 0;
+   position: fixed;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
@@ -158,6 +157,7 @@ section{
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 
@@ -390,21 +390,7 @@ section{
 
 
 
-
-
-.the-design-box
-{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    height: 18rem;
-    width: 25rem;
-}
-
-
-        
+      
         
 .second-design-box{
     display: flex;
@@ -412,7 +398,6 @@ section{
     justify-content: center;
     position: relative;
     width: 20rem;
-    height: 25rem;
     margin: 1rem;
 }
 
@@ -431,66 +416,10 @@ section{
 
 
 
-.outdoor{
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: 0.25s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    overflow: hidden;
-    flex-direction: column;
-    opacity: 0;
-}
-
-
-.overlay:hover{
-    opacity: 1;
-}
-
-.overlay .titles{
-    transform: translateY(20px);
-    transition: 0.25s;
-}
 
 
 
-
-.overlay:hover .titles{
-    transform: translateY(0);
-}
-
-
-.overlay .infos{
-    transform: translateY(20px);
-    transition: 0.4s;
-}
-
-
-
-
-.overlay:hover .infos{
-    transform: translateY(0);
-}
-
-
-
-
-
-
-.kitchen{
+.dining{
     width: 100%;
     height: 100%;
     display: block;
@@ -710,7 +639,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 40rem;
+    width: 35rem;
+    background: whitesmoke;
 }
 
 
@@ -731,8 +661,7 @@ section{
 /* this container types affects all */
 .types{
     display: flex;
-    width:90%;
-    height: 5rem;
+    width:80%;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -761,6 +690,7 @@ section{
     align-items: center;
     justify-content: center;
     width: 30rem;
+    background: whitesmoke;
 }
 
 
@@ -769,8 +699,7 @@ section{
 .parties-image{
     position: relative;
     border-radius: 0.5rem;
-    width: 30rem;
-    height: 25rem;
+    width: 80%;
     display: flex;
     background-image: url('brand1.jpg');
     background-size: cover;
@@ -913,6 +842,8 @@ section{
     height: 100%;
     background: whitesmoke;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -925,7 +856,7 @@ b{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
+    margin: 1rem;
     flex-direction: column;
     width: 30rem;
     
@@ -944,12 +875,13 @@ b{
 }
 
 
-.livingroom-photo{
+.graphics-photo{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 40rem;
+    width: 80%;
+    margin: 1rem;
 }
 
 .inner2{
@@ -961,8 +893,8 @@ b{
     background-size: cover;
     background-position: center;
     border-radius: 0.4rem;
-    width: 25rem;
-    height: 25rem;
+    width: 85%;
+    height: 90%;
     margin: 2rem;
     border: 2px solid #fff;
 
@@ -970,10 +902,10 @@ b{
 
 
 .inner2 img{
-    width: 20rem;
-    height: 15rem;
+    width: 50%;
+    height: 50%;
     position: relative;
-    right: 10rem;
+    right: 20rem;
     border-radius: 0.4rem;
     margin: 2rem;
     border: 2px solid #fff;
@@ -1230,8 +1162,6 @@ b{
 
     header{
         justify-content: space-between;
-        position: sticky;
-        top: 0;
     }
 
     .bars{
@@ -1386,6 +1316,12 @@ b{
 
     .the-description h1{
         font-size: 1.5rem;
+    }
+
+
+
+    .section{
+        background-position: top;
     }
 
 
