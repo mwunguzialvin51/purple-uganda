@@ -156,14 +156,13 @@ nav{
 
 
 section{
-    position: relative;
     width: 95%;
     height:80%;
-    background-size: cover;
     background-attachment: fixed;
     background-position: center ;
-    background-image: url(modern-brown\ kitchen.jpg);
+    background-image: url(soffa-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1458,8 +1457,8 @@ b{
     }
 
     section{
-        height: 60%;
-        width: 90%;
+        height: 70%;
+        width: 95%;
         margin: 1rem;
     }
 
