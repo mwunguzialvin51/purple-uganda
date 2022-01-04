@@ -51,7 +51,7 @@ header
 .logo{
     width: 8rem;
     height: 6rem;
-    margin: 1.5rem 2rem;
+    margin: 0.5rem;
 }
 
 
@@ -99,7 +99,7 @@ ul li a{
 
 .button1{
     display: flex;
-    margin: 1.5rem 3rem;
+    margin: 1.5rem;
     align-items: center;
     justify-content: center;
     width: 4rem;
