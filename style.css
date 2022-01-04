@@ -149,7 +149,7 @@ nav{
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background: #fff;
+    background: whitesmoke;
 }
 
 
@@ -157,7 +157,7 @@ nav{
 
 section{
     position: relative;
-    width: 80%;
+    width: 95%;
     height: 80%;
     background-position: center;
     background-size: cover;
@@ -181,6 +181,7 @@ section{
     height: 75%;
     background: rgba(255,255,255,0.7);
     border-radius: 1rem;
+    margin: 1rem;
 }
 
 
@@ -718,7 +719,7 @@ section{
     border-radius: 0.5rem;
     width: 80%;
     display: flex;
-    background-image: url('brand1.jpg');
+    background-image: url('religion-gd99ee7ec0_1920.jpg');
     background-size: cover;
     background-position:center ;
     align-items: center;
@@ -728,21 +729,6 @@ section{
 }
 
 
-@keyframes change{
-    0%{
-        background-image: url('pexels-sora-shimazaki-5926291.jpg');
-    }
-
-    20%{
-        background-image: url('pexels-michael-steinberg-342943.jpg');
-    }
-
-    40%{
-        background-image: url('pexels-alesia-kozik-7069272.jpg');
-    }
-
-
-    }
 
 
 
@@ -1447,7 +1433,8 @@ b{
 
     .inner-logo{
         width: 95%;
-        height: 95%;
+        height: 45vh;
+        margin: 0;
     }
 
 
@@ -1485,4 +1472,31 @@ b{
 
 }
 
+
+
+@media (max-width:667px)
+{
+
+
+
+    nav{
+        margin: 0;
+        margin-top: 0;
+        background: whitesmoke;
+        height: 100%;
+    }
+
+
+
+    section{
+        height: 50vh;
+        width: 96%;
+        margin-top:2.5rem;
+    }
+ 
+
+
+
+
+}
 

@@ -146,12 +146,13 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(paint-brush.jpg);
+    background: url(pexels-cottonbro-6565749\ \(1\).jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .inner-logos{
@@ -172,6 +173,7 @@ ul li a{
     justify-content: center;
     width: 100%;
     height: 100vh;
+    background: whitesmoke;
 }
 
 
@@ -1514,14 +1516,6 @@ span{
 
 
 
-    
-    .inner-logo{
-        width: 10rem;
-        height: 10rem;
-        margin: 5rem;
-    }
-
-
 
 
 
@@ -1538,8 +1532,8 @@ span{
 
 
     .below h1{
-        font-size: 3rem;
-        margin: 1rem;
+        font-size: 3.4rem;
+        margin-top: 4.5rem;
     }
 
 
@@ -1547,6 +1541,27 @@ span{
 
     .heading1 h1{
         font-size: 100%;
+    }
+
+
+
+    .inner-logos{
+        width: 96%;
+        height: 96%;
+        margin: 5px;
+    }
+
+
+    .above-the-maincontainer{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .main-container{
+        width: 96%;
+        height: 45vh;
+        margin-top: 3rem;
     }
 
 
