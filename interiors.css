@@ -138,7 +138,6 @@ ul li a{
     width: 95%;
     height:80%;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center ;
     background-image: url(modern-brown\ kitchen.jpg);
     background-repeat: no-repeat;
@@ -156,10 +155,10 @@ ul li a{
     align-items: center;
     justify-content: center;
     width: 95%;
-    height: 80%;
+    height: 75%;
     background: rgba(255,255,255,0.7);
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 1.2rem;
 }
 
 
@@ -1577,6 +1576,10 @@ ul li a{
 
     }
 
+    ul li a{
+        color: #fff;
+    }
+
 
     ul li{
         margin: 1rem 2rem;
@@ -1846,6 +1849,9 @@ ul li a{
     .section{
         width: 96%;
         height: 45vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         margin-top:3rem ;
         margin-bottom: 1rem;
     }

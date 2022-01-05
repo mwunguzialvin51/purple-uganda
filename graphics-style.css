@@ -141,17 +141,15 @@ ul li a{
 /* the main-container */
 .main-container{
     height: 85%;
-    width: 85%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(pexels-cottonbro-6565749\ \(1\).jpg);
+    background: url(high-view-dirty-color-palette-with-brushes.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 .inner-logos{
@@ -159,10 +157,10 @@ ul li a{
     align-items: center;
     justify-content: center;
     width: 95%;
-    height: 80%;
+    height: 70%;
     background: rgba(255,255,255,0.5);
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 1.2rem;
 }
 
 
@@ -281,23 +279,21 @@ ul li a{
 
 
 .left-column{
-    width: 40rem;
+    width: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
  .left-column img{
-    width: 90%;
+    width: 60%;
     transition: 1s;
     cursor: pointer;
+    margin: 1rem;
     
 }
 
-.left-column img:hover{
-    width: 100%;
-    transform: translateY(-10px);
-}
 
 .water-drop{
     display: flex;
@@ -707,15 +703,20 @@ span{
 
 
 
-.boxes:hover img{
-    width: 40%;
+
+.boxes h3{
+    background:#000;
+    padding: 1rem;
+    box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.2), 2px 2px 3px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    color: #fff;
+    margin: 1rem;
 }
 
 
-
-.boxes h3{
-    background: whitesmoke;
-    padding: 1rem;
+.boxes h3:hover{
+    background:#fff;
+    color: purple;
 }
 
 
@@ -1245,6 +1246,10 @@ span{
 
     }
 
+    ul li a{
+        color: #fff;
+    }
+
 
     ul li{
         margin: 1rem 2rem;
@@ -1379,6 +1384,14 @@ span{
 
     .boxes h3{
         font-size: 100%;
+        width: 95%;
+    }
+
+
+
+    .boxes img{
+        width: 70%;
+        display: block;
     }
 
 

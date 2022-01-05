@@ -165,12 +165,9 @@ ul li a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-clip: border-box;
     background-image: url(brown-living\ room.jpg);
-    background-attachment: fixed;
     position: relative;
     border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 
@@ -182,7 +179,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     width: 95%;
-    height: 80%;
+    height: 70%;
     background: rgba(255,255,255,0.5);
     border-radius: 1rem;
     margin: 1rem;
@@ -964,6 +961,10 @@ ul li a{
         z-index: 2000;
         border: 1px solid black;
 
+    }
+
+    ul li a{
+        color: #fff;
     }
 
 
