@@ -140,8 +140,8 @@ ul li a{
 
 /* the main-container */
 .main-container{
-    height: 85%;
     width: 95%;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,6 +150,7 @@ ul li a{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .inner-logos{
@@ -169,7 +170,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: whitesmoke;
 }
 
@@ -536,7 +537,7 @@ ul li a{
 
 .intersection{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background:rgba(0, 0, 0, 0.5) url(pexels-rodnae-productions-6192410.jpg);
     background-size: cover;
     background-position: center;
@@ -555,8 +556,9 @@ ul li a{
     align-items: center;
     justify-content: center;
     width: 90%;
-    height: 90%;
+    height: 55vh;
     border-radius: 0.9rem;
+    margin: 2rem;
 }
 
 
@@ -630,7 +632,7 @@ ul li a{
     justify-content: center;
     justify-content: center;
     position: relative;
-    top: -200px;
+    top:-400px;
     left: 20px;
     right: 10px;
     background: transparent;
@@ -906,7 +908,7 @@ span{
 
 .join-us{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #fff;
     display: flex;
     align-items: center;
@@ -925,6 +927,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 4rem;
 }
 
 
@@ -938,6 +941,7 @@ span{
 
 .trophy {
     width: 15rem;
+    margin: 2rem;
 }
 
 
@@ -1208,13 +1212,32 @@ span{
 
 
 
+@media (max-width:1024px){
+
+
+
+    .above-the-maincontainer{
+        height: 100%;
+    }
+
+
+    .main-container{
+        height: 50vh;
+    }
+
+    .inner-borders h1{
+         font-size: 150%;
+    }
+
+
+}
 
 
 
 
 
 @media (max-width:998px){
-    
+     
     html{
         overflow-x: hidden;
     }
@@ -1295,6 +1318,7 @@ span{
 
     .final-bg{
         height: 100%;
+        background-attachment: scroll;
     }
 
 
@@ -1478,14 +1502,40 @@ span{
 
 
 
+.above-the-maincontainer{
+    height: 100%;
+}
 
 
+.main-container{
+    height: 50vh;
+}
 
+
+.inner-logos{
+    width: 96%;
+    height: 95%;
+    margin: 0;
 }
 
 
 
 
+.intersection{
+    background-attachment: scroll;
+}
+
+
+
+.more-ideas{
+    background-attachment: scroll;
+}
+
+
+
+
+}
+   
 
 
 
@@ -1496,7 +1546,17 @@ span{
 
 
 
-@media (max-width:690px){ 
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){ 
 
 
     header{
@@ -1590,7 +1650,7 @@ span{
 
     .main-container{
         width: 96%;
-        height: 45vh;
+        height: 50vh;
         margin-top: 3rem;
     }
 

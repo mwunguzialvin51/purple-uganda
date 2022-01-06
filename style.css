@@ -148,7 +148,7 @@ nav{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: whitesmoke;
 }
 
@@ -157,7 +157,7 @@ nav{
 
 section{
     width: 95%;
-    height:80%;
+    height:85vh;
     background-image: url(green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering.jpg);
     background-size: cover;
     background-position: center;
@@ -166,6 +166,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 
@@ -217,7 +218,7 @@ section{
    justify-content: center;
    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
 }
 
@@ -259,6 +260,8 @@ section{
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -269,6 +272,7 @@ section{
     justify-content: center;
     flex-direction: column;
     margin: 1rem 2rem;
+    width: 30rem;
 }
 
 
@@ -301,6 +305,7 @@ section{
     justify-content: center;
     flex-direction: column;
     margin: 1rem 2rem;
+    width: 30rem;
 }
 
 
@@ -334,6 +339,7 @@ section{
     justify-content: center;
     flex-direction: column;
     margin: 1rem 2rem;
+    width: 30rem;
 }
 
 
@@ -563,7 +569,7 @@ section{
 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #fff;
     display: flex;
     flex-direction: row;
@@ -645,8 +651,8 @@ section{
 .design-container{
     position: relative;
     display: flex;
-    height: 100vh;
     width: 100%;
+    height: 100%;
     background: whitesmoke;
     flex-wrap: wrap;
 }
@@ -658,8 +664,9 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 35rem;
+    width: 30rem;
     background: whitesmoke;
+    margin: 1.5rem;
 }
 
 
@@ -710,6 +717,7 @@ section{
     justify-content: center;
     width: 30rem;
     background: whitesmoke;
+    margin: 1.5rem;
 }
 
 
@@ -725,8 +733,8 @@ section{
     background-position:center ;
     align-items: center;
     justify-content: center;
-    animation: change 10s infinite ease-in-out;
     cursor: pointer;
+    margin: 1rem;
 }
 
 
@@ -788,7 +796,7 @@ section{
 .graphics-section
 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background:url('krisztian-tabori-IyaNci0CyRk-unsplash.jpg');
     background-position: center;
     background-size: cover;
@@ -807,10 +815,11 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 21rem;
+    width: 90%;
+    height: 50vh;
     background: rgba(255,255,255,0.8);
     border-radius: 0.5rem;
+    margin: 1rem;
 }
 
 .border-box
@@ -819,7 +828,7 @@ section{
     justify-content: center;
     align-items: center;
     width: 99%;
-    height: 17rem;
+    height: 75%;
     border-radius: 0.5rem;
     border: 1px solid black;
 
@@ -1151,7 +1160,27 @@ b{
 
 
 
+@media (max-width:1024px){
 
+
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+     section{
+         height: 45vh;
+         margin-top: 0;
+     }
+
+
+     .inner-borders h1{
+         font-size: 200%;
+     }
+}
 
 
 
@@ -1454,7 +1483,7 @@ b{
 
 
     .inner-borders h1{
-        font-size: 90%;
+        font-size: 80%;
     }
 
 
@@ -1464,7 +1493,7 @@ b{
     }
 
     section{
-        height: 45vh;
+        height: 70vh;
         width: 95%;
         margin: 1rem;
         background-size: cover;
@@ -1476,6 +1505,23 @@ b{
     .b-6 h3{
         font-size: 100%;
         margin: 5px;
+    }
+
+
+    .parties-image{
+        margin-bottom: 6rem;
+    }
+
+
+    .graphics-section{
+        height: 70%;
+        background-attachment: scroll;
+    }
+
+
+    .inner-box{
+        margin: 1rem;
+        width: 96%;
     }
     
 
@@ -1493,19 +1539,26 @@ b{
 
 
 
-@media (max-width:667px)
+@media (max-width:600px)
 {
 
 
 
 
     section{
-        height: 45vh;
         width: 96%;
-        margin-top:2.5rem;
+        height: 45vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-top:3rem ;
+        margin-bottom: 1rem;
+    }
+
+
+
+    .inner-logo{
+        height: 90%;
     }
  
 

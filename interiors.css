@@ -196,7 +196,7 @@ ul li a{
 
 .second-container{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background:#fff;
     display: flex;
     flex-direction: column;
@@ -487,7 +487,7 @@ ul li a{
 
 .fifth-container{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -587,7 +587,7 @@ ul li a{
 
 .referals{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1541,6 +1541,27 @@ ul li a{
 
 
 
+@media (max-width:1024px){
+
+
+    .intro-page{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+     .section{
+         height: 50vh;
+         margin-top: 0;
+     }
+
+
+     .inner-borders h1{
+         font-size: 150%;
+     }
+}
 
 
 
@@ -1848,7 +1869,7 @@ ul li a{
 
     .section{
         width: 96%;
-        height: 45vh;
+        height: 60vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1865,7 +1886,7 @@ ul li a{
 
 
     .inner-logo h1{
-        font-size: 100%;
+        font-size: 200%;
     }
 
 
@@ -1886,6 +1907,27 @@ ul li a{
 
 
 
+}
+
+
+@media (max-width:600px){
+    
+
+
+    .section{
+        width: 96%;
+        height: 48vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top:3rem ;
+        margin-bottom: 1rem;
+    }
+
+
+    .inner-logo h1{
+        font-size: 100%;
+    }
 
 
 
@@ -1893,7 +1935,6 @@ ul li a{
 
 
 }
-
 
 
 
