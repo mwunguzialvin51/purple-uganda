@@ -158,15 +158,13 @@ nav{
 section{
     width: 95%;
     height:85vh;
-    background-image: url(green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering.jpg);
+    background: url(green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin:1rem ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 1rem;
+    margin: 1rem;
 }
 
 
@@ -1496,9 +1494,6 @@ b{
         height: 70vh;
         width: 95%;
         margin: 1rem;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
 
@@ -1548,9 +1543,6 @@ b{
     section{
         width: 96%;
         height: 45vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         margin-top:3rem ;
         margin-bottom: 1rem;
     }

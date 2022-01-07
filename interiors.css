@@ -137,10 +137,11 @@ ul li a{
     position: relative;
     width: 95%;
     height:80%;
+    background: url(modern-brown\ kitchen.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center ;
-    background-image: url(modern-brown\ kitchen.jpg);
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1870,9 +1871,6 @@ ul li a{
     .section{
         width: 96%;
         height: 60vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         margin-top:3rem ;
         margin-bottom: 1rem;
     }
@@ -1917,9 +1915,6 @@ ul li a{
     .section{
         width: 96%;
         height: 48vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         margin-top:3rem ;
         margin-bottom: 1rem;
     }

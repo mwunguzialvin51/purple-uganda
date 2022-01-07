@@ -145,10 +145,11 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(high-view-dirty-color-palette-with-brushes.jpg);
+    background: url(high-view-dirty-color-palette-with-brushes.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
