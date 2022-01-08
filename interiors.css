@@ -121,65 +121,66 @@ ul li a{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .intro-page{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: whitesmoke;
-}
-
-
-
-.section
-{
     position: relative;
-    width: 95%;
-    height:80%;
-    background: url(modern-brown\ kitchen.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(145, 144, 144);
+}
+
+
+
+.interior-heading
+{
+    margin-top: 10rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
+    width: 100%;
 }
 
 
+.interior-heading h1{
+    font-size: 2.5rem;
+    margin: 1.5rem;
+    color: #000;
+}
 
 
-.inner-logo{
+.ex{
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 75%;
-    background: rgba(255,255,255,0.7);
-    border-radius: 1rem;
-    margin: 1.2rem;
+    width: 70%;
 }
 
 
 
-.inner-border{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 55%;
-    border: 1px solid black;
-    border-radius: 1rem;
+.ex p{
+    margin: 1.5rem;
+    color: #fff;
 }
 
 
-.inner-border h1{
-    margin: 3rem;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 3rem;
-}
+
+
+
+
+
+
+
 
 
 
@@ -281,21 +282,22 @@ ul li a{
 }
 
 
-
 .left-column{
-    width: 40rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    grid-gap: 0.5rem;
-    margin: 2rem;
-
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.boxes img{
-    width: 100%;
-    cursor: pointer;
+.left-column img{
+    width: 95%;
+    margin: 1.5rem;
 }
+
+
+
+
 
 
 .right-column{
@@ -858,16 +860,17 @@ ul li a{
 .ninth-container{
     width: 100%;
     height: 100%;
-    background: rgb(177, 177, 177);
+    background: purple;
     display: flex;
     flex-direction: column;
 }
 
 
 .ninth-container h1{
-    margin: 2.5rem; 
+    margin: 2rem; 
     font-size: 2rem;
     font-family: 'Patrick Hand', cursive;
+    color: #000;
 }
 
 
@@ -882,8 +885,9 @@ ul li a{
 
 
 .p-ct2 p{
-    margin: 2rem;
+    margin: 1rem;
     font-size: 1.2rem;
+    color: #fff;
 }
 
 
@@ -1540,29 +1544,20 @@ ul li a{
 
 
 
-
-
 @media (max-width:1024px){
 
-
-    .intro-page{
-        width: 100%;
-        height: 100%;
+    .interior-heading{
+        margin-top: 7rem;
     }
 
 
-
-
-     .section{
-         height: 50vh;
-         margin-top: 0;
-     }
-
-
-     .inner-borders h1{
-         font-size: 150%;
-     }
+    
 }
+
+
+
+
+
 
 
 
@@ -1864,28 +1859,25 @@ ul li a{
     .intro-page{
         height: 100%;
         width: 100%;
-        background: whitesmoke;
     }
 
 
-    .section{
-        width: 96%;
-        height: 60vh;
-        margin-top:3rem ;
-        margin-bottom: 1rem;
+    .interior-heading{
+        margin-top: 7rem;
     }
 
 
-    .inner-logo{
-        width: 95%;
-        margin: 0;
-        height: 90%;
+
+    .interior-heading h1{
+        font-size: 150%;
+    }
+
+    .ex {
+        width: 100%;
     }
 
 
-    .inner-logo h1{
-        font-size: 200%;
-    }
+   
 
 
     .wt-container{
@@ -1908,28 +1900,6 @@ ul li a{
 }
 
 
-@media (max-width:600px){
-    
-
-
-    .section{
-        width: 96%;
-        height: 48vh;
-        margin-top:3rem ;
-        margin-bottom: 1rem;
-    }
-
-
-    .inner-logo h1{
-        font-size: 100%;
-    }
-
-
-
-
-
-
-}
 
 
 

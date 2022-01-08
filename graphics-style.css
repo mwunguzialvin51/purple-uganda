@@ -139,95 +139,50 @@ ul li a{
 
 
 /* the main-container */
-.main-container{
-    width: 95%;
-    height: 85vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(high-view-dirty-color-palette-with-brushes.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-}
 
-.inner-logos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 70%;
-    background: rgba(255,255,255,0.5);
-    border-radius: 1rem;
-    margin: 1.2rem;
-}
 
 
 .above-the-maincontainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     width: 100%;
     height: 100%;
-    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    background: purple;
 }
 
 
 
-.inner-borders{
+
+
+.graphics-heading
+{
+    margin-top: 10rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 55%;
-    border: 1px solid black;
-    border-radius: 1rem;
-}
-
-
-.inner-borders h1{
-    margin: 2rem;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 3rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contents
-{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
     width: 100%;
-    height: 100vh;
-    
 }
 
 
-.contents h1{
-    font-size: 2rem;
-    font-family: 'Secular One', sans-serif;
+.graphics-heading h1{
+    font-size: 2.5rem;
+    margin: 1.5rem;
 }
 
+
+.ex{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+
+
+.ex p{
+    margin: 1.5rem;
+    color: #fff;
+}
 
 
 
@@ -267,6 +222,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin: 1.5rem;
     
 }
 
@@ -285,14 +241,14 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    margin: 1rem;
 }
 
  .left-column img{
-    width: 60%;
+    width: 90%;
     transition: 1s;
     cursor: pointer;
-    margin: 1rem;
+    margin: 1.5rem;
     
 }
 
@@ -415,7 +371,7 @@ ul li a{
 .white-box{
     height: 10rem;
     width: 20rem;
-    background: rgb(17, 223, 206);
+    background:#8c0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -697,7 +653,7 @@ span{
 }
 
 .boxes img{
-    width: 30%;
+    width: 55%;
     margin: 1rem;
     cursor: pointer;
     transition: 0.5s;
@@ -1212,27 +1168,15 @@ span{
 }
 
 
-
 @media (max-width:1024px){
 
-
-
-    .above-the-maincontainer{
-        height: 100%;
+    .graphics-heading{
+        margin-top: 7rem;
     }
 
 
-    .main-container{
-        height: 50vh;
-    }
-
-    .inner-borders h1{
-         font-size: 150%;
-    }
-
-
+    
 }
-
 
 
 
@@ -1347,20 +1291,7 @@ span{
 
 
 
-    .main-container{
-        width: 95%;
-    }
-
-
-
-    .inner-logos{
-        width: 90%;
-    }
-
-
-    .inner-borders h1{
-        font-size: 100%;
-    }
+    
 
 
 
@@ -1508,16 +1439,25 @@ span{
 }
 
 
-.main-container{
-    height: 50vh;
+.graphics-heading{
+    margin-top: 10rem;
 }
 
 
-.inner-logos{
-    width: 96%;
-    height: 95%;
-    margin: 0;
+
+.graphics-heading h1{
+    font-size: 150%;
 }
+
+.ex {
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 
@@ -1531,6 +1471,9 @@ span{
 .more-ideas{
     background-attachment: scroll;
 }
+
+
+
 
 
 
@@ -1649,11 +1592,7 @@ span{
     }
 
 
-    .main-container{
-        width: 96%;
-        height: 50vh;
-        margin-top: 3rem;
-    }
+  
 
 
     .white-box{
@@ -1667,6 +1606,10 @@ span{
         width: 96%;
         margin: 3rem;
     }
+
+
+
+    
 
 
 
