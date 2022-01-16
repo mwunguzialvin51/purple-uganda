@@ -39,7 +39,7 @@ header
     width: 100%;
     height: 6rem;
    background: #fff;
-   position: fixed;
+   position: relative;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
@@ -141,67 +141,199 @@ ul li a{
 
 /* the description page */
 
-
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.home-page{
     width: 100%;
-    height: 100%;
-    background: whitesmoke;
-}
-
-
-
-
-section{
-    width: 95%;
-    height:85vh;
-    background: url(brown-living\ room.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    height: 100vh;
+    background:  rgba(0, 0, 0, 0.3) url('wall-g989424c35_1280.jpg');
     background-size: cover;
-    border-radius: 1rem;
-    margin: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
 
-
-
-
-
-.inner-logo{
+.division1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 96%;
-    height: 90%;
-    background: rgba(255,255,255,0.7);
-    border-radius: 1rem;
-    margin: 1rem;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
 }
 
 
-.inner-borders{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 55%;
-    padding: 1rem;
-    border: 1px solid black;
-    margin: 1rem;
-    border-radius: 1rem;
-}
-
-
-.inner-borders h1{
+.division1 h1{
+    color: #fff;
+    font-size: 5rem;
     font-family: 'Patrick Hand', cursive;
-    font-size: 2.5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.the-introduction{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.introduction-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+   
+}
+
+
+.introduction-heading h1{
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+.items{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    margin: 1rem;
+}
+
+
+
+.items img{
+    width: 5rem;
+    margin: 2rem;
+}
+
+
+
+.intro1{
+    width: 20rem;
+    height: 20rem;
+    background: whitesmoke;
+    margin: 2rem;
+    box-shadow: -1px -1px 2px  rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4rem;
+}
+
+.bar1{
+    width: 100%;
+    background: orange;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 0.2rem;
+
+}
+
+
+
+.bar1 h2{
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+
+
+.intro2{
+    width: 20rem;
+    height: 20rem;
+    background: whitesmoke;
+    margin: 2rem;
+    box-shadow: -1px -1px 2px  rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4rem;
+   
+}
+
+
+.bar2{
+    width: 100%;
+    background: #8c0;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 0.2rem;
+
+}
+
+
+.bar2 h2{
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+
+
+
+.intro3{
+    width: 20rem;
+    height: 20rem;
+    background: whitesmoke;
+    margin: 2rem;
+    box-shadow: -1px -1px 2px  rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4rem;
+}
+
+
+.bar3{
+    width: 100%;
+    background:#ff001c;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 0.2rem;
+
+}
+
+
+.bar3 h2{
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -217,6 +349,8 @@ section{
    flex-direction: column;
     width: 100%;
     height: 100%;
+    background: whitesmoke;
+   
     
 }
 
@@ -226,6 +360,7 @@ section{
     font-family: 'Patrick Hand', cursive;
     margin: 1rem;
     color: purple;
+
 }
 
 
@@ -260,8 +395,9 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 100%;
-
+    height: 60vh;
+    background: whitesmoke;
+   
 }
 
 
@@ -270,8 +406,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 1rem 2rem;
-    width: 30rem;
+    margin: 1rem;
+    width: 20rem;
 }
 
 
@@ -303,8 +439,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 1rem 2rem;
-    width: 30rem;
+    margin: 1rem ;
+    width: 20rem;
 }
 
 
@@ -337,8 +473,8 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 1rem 2rem;
-    width: 30rem;
+    margin: 1rem;
+    width: 20rem;
 }
 
 
@@ -403,8 +539,8 @@ section{
 {
     position: relative;
     width: 100%;
-    height: 100%;
-    background: whitesmoke;
+    height: 100vh;
+    background: rgb(167, 166, 166);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -421,7 +557,7 @@ section{
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 25rem;
+    width: 30rem;
     margin: 1rem;
 }
 
@@ -430,6 +566,7 @@ section{
     font-size: 2rem;
     font-family: 'Patrick Hand', cursive;
     margin: 1rem;
+    color: #fff;
 }
 
 .the-description p{
@@ -522,18 +659,16 @@ section{
 
 .the-description h1{
     margin-bottom: 0.5rem;
-    font-family: 'Secular One', sans-serif;
 }
 
 
 .design-ideas{
-    background: red;
-    border: rgba(161, 36, 36, 0.966);
+    background:purple;
     margin-top: 2rem;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     color: #fff;
-    box-shadow: 10px 10px 10px rgba(253, 6, 6, 0.966);
+    box-shadow: 10px 10px 10px rgb(145, 2, 145);
 }
 
 
@@ -570,7 +705,7 @@ section{
 {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: #fff;
     display: flex;
     flex-direction: row;
@@ -627,7 +762,7 @@ section{
 
 
 .chair-image img{
-    width: 80%;
+    width: 100%;
     cursor: pointer;
     margin: 1rem;
 }
@@ -653,8 +788,8 @@ section{
     position: relative;
     display: flex;
     width: 100%;
-    height: 100%;
-    background: whitesmoke;
+    height: 100vh;
+    background: rgb(161, 161, 161);
     flex-wrap: wrap;
 }
 
@@ -666,7 +801,6 @@ section{
     justify-content: center;
     flex-direction: column;
     width: 30rem;
-    background: whitesmoke;
     margin: 1.5rem;
 }
 
@@ -676,6 +810,7 @@ section{
     font-size: 1.5rem;
     font-family: 'Patrick Hand', cursive;
     margin: 1rem;
+    color: #fff;
 }
 
 
@@ -717,7 +852,6 @@ section{
     align-items: center;
     justify-content: center;
     width: 30rem;
-    background: whitesmoke;
     margin: 1.5rem;
 }
 
@@ -727,7 +861,7 @@ section{
 .parties-image{
     position: relative;
     border-radius: 0.5rem;
-    width: 80%;
+    width: 100%;
     display: flex;
     background-image: url('religion-gd99ee7ec0_1920.jpg');
     background-size: cover;
@@ -792,55 +926,6 @@ section{
 /* the location section */
 
 
-
-
-.graphics-section
-{
-    width: 100%;
-    height: 100%;
-    background:url('krisztian-tabori-IyaNci0CyRk-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-.inner-box
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 50vh;
-    background: rgba(255,255,255,0.8);
-    border-radius: 0.5rem;
-    margin: 1rem;
-}
-
-.border-box
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 99%;
-    height: 75%;
-    border-radius: 0.5rem;
-    border: 1px solid black;
-
-}
-
-
-
-.border-box h1{
-    font-family: 'Patrick Hand', cursive;
-    margin: 1rem;
-}
 
 
 
@@ -1256,13 +1341,11 @@ b{
 
     .contents{
         height: 100%;
-        margin-bottom: 2rem;
     }
 
 
     .grid-container{
         height: 100%;
-        margin-bottom: 2rem;
     }
 
 
@@ -1311,7 +1394,6 @@ b{
 
     .design-container{
         height: 100%;
-        margin-bottom: 2rem;
     }
 
 
@@ -1471,33 +1553,12 @@ b{
     }
 
 
-    .inner-logo{
-        width: 95%;
-        height: 65vh;
-        margin: 1rem;
-    }
+ 
 
 
-    .inner-borders{
-        margin: 0;
-    }
 
 
-    .inner-borders h1{
-        font-size: 80%;
-    }
-
-
-    nav{
-        width: 100%;
-        height: 100%;
-    }
-
-    section{
-        height: 70vh;
-        width: 95%;
-        margin: 1rem;
-    }
+  
 
 
     .b-6 h3{
@@ -1517,10 +1578,44 @@ b{
     }
 
 
-    .inner-box{
-        margin: 1rem;
-        width: 96%;
+
+    .home-page{
+        height:100vh;
     }
+
+
+    .home-page h1{
+        font-size: 250%;
+    }
+
+
+
+    .the-introduction{
+        height:100%;
+    }
+
+
+
+    .introduction-heading h1{
+        font-size: 120%;
+    }
+
+
+    .bar1 h2{
+        font-size: 120%;
+    }
+
+
+    .bar2 h2{
+        font-size: 120%;
+    }
+
+    .bar3 h2{
+        font-size: 120%;
+    }
+
+
+   
     
 
 
@@ -1554,6 +1649,21 @@ b{
     .inner-logo{
         height: 90%;
         margin: 1rem;
+    }
+
+
+    .home-page{
+        height:50vh;
+    }
+
+
+    .home-page h1{
+        font-size: 170%;
+    }
+
+
+    .introduction-heading h1{
+        font-size: 100%;
     }
  
 
