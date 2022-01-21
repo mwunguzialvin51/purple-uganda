@@ -77,13 +77,8 @@ ul li{
 }
 
 
-ul  li:hover{
-    background: #8B008B;
-}
-
-
 ul li a:hover{
-    color: #fff;
+    color: red;
 }
 
 
@@ -962,9 +957,18 @@ ul li a{
 }
 
 
-.bars{
+.bars   .fa-bars{
     display: none;
 }
+
+
+.bars .fa-times{
+    display: none;
+}
+
+
+
+
 
 
 @media (max-width:1024px){
@@ -972,8 +976,6 @@ ul li a{
     .graphics-heading{
         margin-top: 7rem;
     }
-
-
     
 }
 
@@ -994,9 +996,13 @@ ul li a{
         top: 0;
     }
 
-    .bars{
+    .bars  .fa-bars{
         display: block;
 
+    }
+
+    .bars .fa-times{
+        display: none;
     }
 
 
@@ -1005,16 +1011,12 @@ ul li a{
         top: 5.1rem;
         left: -100%;
         width: 100%;
-        height: 100vh;
+        height: 30vh;
         background: purple;
-        transition: 0.5s;
+        transition: 0.4s;
         z-index: 2000;
         border: 1px solid black;
 
-    }
-
-    ul li a{
-        color: #fff;
     }
 
 
@@ -1024,21 +1026,40 @@ ul li a{
     
     }
 
-    ul  li:hover{
-        background: #fff;
+    ul li a{
+        color: #000;
+    }
+
+
+    ul li{
+        margin: 1rem 2rem;
+        display: block;
+    
     }
     
     
     ul li a:hover{
-        color: purple;
+        color: #fff;
     }
 
+
+    #toggler:checked ~ .bars .fa-bars
+    {
+        display: none;
+    }
+
+
+    #toggler:checked ~ .bars .fa-times
+    {
+        display: block;
+    }
 
 
     #toggler:checked ~ ul
     {
         left: 0;
     }
+
 
 
     .second-container{

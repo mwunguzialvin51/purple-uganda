@@ -77,13 +77,8 @@ ul li{
 }
 
 
-ul  li:hover{
-    background: #8B008B;
-}
-
-
 ul li a:hover{
-    color: #fff;
+    color: red;
 }
 
 
@@ -105,7 +100,7 @@ ul li a{
     justify-content: center;
     width: 4rem;
     height: 2rem;
-    background: #8B008B;
+    background:#8B008B;
     border-radius: 0.2rem;
     color: #fff;
     cursor: pointer;
@@ -117,7 +112,6 @@ ul li a{
     box-shadow: 5px  5px 6px rgba(218, 16, 16, 0.808);
     color: white;
 }
-
 
 
 
@@ -915,9 +909,15 @@ ul li a{
 }
 
 
-.bars{
+.bars   .fa-bars{
     display: none;
 }
+
+
+.bars .fa-times{
+    display: none;
+}
+
 
 
 
@@ -953,9 +953,13 @@ ul li a{
         justify-content: space-between;
     }
 
-    .bars{
+    .bars  .fa-bars{
         display: block;
 
+    }
+
+    .bars .fa-times{
+        display: none;
     }
 
 
@@ -964,16 +968,12 @@ ul li a{
         top: 5.1rem;
         left: -100%;
         width: 100%;
-        height: 100vh;
+        height: 30vh;
         background: purple;
-        transition: 0.5s;
+        transition: 0.4s;
         z-index: 2000;
         border: 1px solid black;
 
-    }
-
-    ul li a{
-        color: #fff;
     }
 
 
@@ -983,16 +983,33 @@ ul li a{
     
     }
 
+    ul li a{
+        color: #000;
+    }
 
-    ul  li:hover{
-        background: #fff;
+
+    ul li{
+        margin: 1rem 2rem;
+        display: block;
+    
     }
     
     
     ul li a:hover{
-        color: purple;
+        color: #fff;
     }
 
+
+    #toggler:checked ~ .bars .fa-bars
+    {
+        display: none;
+    }
+
+
+    #toggler:checked ~ .bars .fa-times
+    {
+        display: block;
+    }
 
 
     #toggler:checked ~ ul
